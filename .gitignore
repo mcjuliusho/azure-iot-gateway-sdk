@@ -207,6 +207,7 @@ service/java/iot.service.sdk.java.iml
 # ignore cmake build folder
 .cmake/**
 build/**
+build_nodejs/**
 
 # ignore Atom Editor files
 .atom-build.json
