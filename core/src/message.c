@@ -49,7 +49,7 @@ static MESSAGE_HANDLE_DATA* Message_CreateImpl(const MESSAGE_CONFIG * cfg)
         result->content = CONSTBUFFER_Create(cfg->source, cfg->size);
         if (result->content == NULL)
         {
-            LogError("CONSBUFFER Create failed");
+            LogError("CONSTBUFFER_Create failed");
             free(result);
             result = NULL;
         }
