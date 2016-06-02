@@ -150,7 +150,7 @@ Windows
 
 - From a Developer Command for VS2015 run `build.cmd`. `build.cmd` produces a folder called `build` in the root repo folder. This is where the two modules used in this sample are built.
 
-> Note: 'logger_hl.dll''s relative path is 'modules\logger\logger_hl.dll' and 'hello_world_hl.dll' is built in 'modules\hello_world\hello_world_hl.dll'. Use these paths for the "module path" value in the json below.
+> Note: 'logger_hl.dll''s relative path is 'modules\logger\Debug\logger_hl.dll' and 'hello_world_hl.dll' is built in 'modules\hello_world\Debug\hello_world_hl.dll'. Use these paths for the "module path" value in the json below.
 
 - Copy the JSON file from folder: `samples\hello_world\src\hello_world_win.json` to folder: `build\samples\hello_world\Debug\`.
 
